@@ -1,20 +1,19 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { DimensaoFixa } from "./src/components/DimesaoFixa";
+import { DimensaoFlex } from "./src/components/DimesaoFlex";
+import { DimensaoPorcetagem } from "./src/components/DimesaoPorcentagem";
+import { PropriedadeFlex } from "./src/components/PropriedadesFlex";
+import { Ex1 } from "./src/components/Ex1"
+import { Ex2 } from "./src/components/Ex2";
+import { Ex3 } from "./src/components/Ex3";
+import { Ex4 } from "./src/components/Ex4";
+import { Ex5 } from "./src/components/Ex5";
+import { Ex6 } from "./src/components/Ex6";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <Ex6/>
+
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+
+
